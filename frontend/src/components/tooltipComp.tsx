@@ -1,7 +1,6 @@
-"use client";
 // import React from "react";
-import Man from "../image/images/Man.png"
-import Manclient from "../image/images/Manclient.png"
+// import Man from "../image/images/Man.png"
+// import Manclient from "../image/images/Manclient.png"
 import { AnimatedTooltip } from "./tooltip"
 import Xd from "../image/images/Xd.jpg";
 import aiml from "../image/images/aiml.jpg";
