@@ -12,7 +12,7 @@ const app = new Hono<{
 }>();
 
 const corsOptions = {
-	origin: 'http://localhost:5173/',
+	origin: 'https://sidhant-singh-rathore-mbfy5ldlb-sidhant-singhs-projects.vercel.app/',
 	methods: ['GET', 'POST', 'PUT', 'DELETE'],
 	optionsSuccessStatus: 200,
   };
