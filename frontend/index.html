@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <style>
+      .font-amaranth {
+      font-family: 'Amaranth', sans-serif;
+      }
+
+      .amaranth-regular {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaranth-bold {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.amaranth-regular-italic {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.amaranth-bold-italic {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./src/image/bg.png');
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat;
+    /* overflow-y: auto; */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    
+    /* Add the following properties */
+    background-attachment: fixed; /* Fixed background image */
+    width: 100%; /* Ensure the body takes up the entire viewport width */
+    height: 100%; /* Ensure the body takes up the entire viewport height */
+    box-sizing: border-box; 
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

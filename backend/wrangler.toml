@@ -1,0 +1,13 @@
+name = "portfolio"
+compatibility_date = "2023-12-01"
+
+[vars]
+node_compat = true
+
+
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMmVkN2RiYzQtOTgwMi00NzFkLWE3NmEtZjYxYWZjZmIwMDY0IiwidGVuYW50X2lkIjoiNzc0MjI0NWJlMzJiNGE4OTVkYWFjNGMzMTc1ZDNkM2Q5YjEwNmJmMTNkZjI1ZDZkNTMyY2FjMmNhODU1NGM5MSIsImludGVybmFsX3NlY3JldCI6IjNhMjMwM2NiLWUzYjgtNDUwZi04YzdkLTM5YTNmNGY5ZTQ4ZiJ9.0tJ7L6bNvOHtHUaZWuPkHNj-iNeDYMrgsvkoc4mEoqw"
+
+
+JWT_SECRET="dasfa"
+header="Authorization"
+
